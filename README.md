@@ -1,6 +1,6 @@
 # 🖼️ Removedor de Fundo de Imagem
 
-![Removedor de Fundo](https://img.shields.io/badge/Geocodificação-Reversa-brightgreen)
+![Removedor de Fundo](https://img.shields.io/badge/Removerdor-Fundo-brightgreen)
 
 Aplicação de interface gráfica (GUI) desenvolvida com **PySide6** que permite ao usuário remover facilmente o fundo de imagens com poucos cliques. Utiliza a biblioteca `rembg`, baseada em deep learning, para fazer a remoção automática do fundo.
 
