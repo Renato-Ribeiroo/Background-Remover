@@ -53,4 +53,54 @@ pip install -r requirements.txt
 python main.py
 ```
 
+🖼️ Background Remover App
+
+![Removedor de Fundo](https://img.shields.io/badge/Remover-Background-brightgreen)
+
+A graphical user interface (GUI) application built with PySide6 that allows users to effortlessly remove the background from images with just a few clicks. It uses the rembg library, based on deep learning, to automatically process and remove image backgrounds.
+
+🚀 Features
+📂 Select images in .png, .jpg, or .jpeg formats
+
+🤖 AI-based automatic background removal
+
+👁️ Preview the image without background
+
+💾 Save the processed image as .png
+
+📊 Progress bar to indicate processing status
+
+---
+
+🛠️ Technologies Used
+
+- [Python 3.x](https://www.python.org/)
+- [PySide6](https://doc.qt.io/qtforpython/)
+- [Pillow (PIL)](https://python-pillow.org/)
+- [rembg](https://github.com/danielgatis/rembg)
+
+---
+
+💻 How to Run
+1. Clone the repository
+bash
+Copiar código
+git clone https://github.com/your-username/background-remover-app.git
+cd background-remover-app
+2. Create and activate a virtual environment (recommended)
+bash
+Copiar código
+python -m venv venv
+# On Windows
+venv\Scripts\activate
+# On Linux/Mac
+source venv/bin/activate
+3. Install the dependencies
+bash
+Copiar código
+pip install -r requirements.txt
+4. Run the application
+bash
+Copiar código
+python main.py
 
