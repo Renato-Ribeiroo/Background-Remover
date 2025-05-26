@@ -22,6 +22,9 @@ Aplicação de interface gráfica (GUI) desenvolvida com **PySide6** que permite
 - [rembg](https://github.com/danielgatis/rembg)
 
 ---
+##🧠 Créditos
+Este projeto utiliza o poder da biblioteca rembg criada por Daniel Gatis.
+---
 
 ## 💻 Como Executar
 
