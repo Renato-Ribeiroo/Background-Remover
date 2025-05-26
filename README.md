@@ -6,11 +6,11 @@ Aplicação de interface gráfica (GUI) desenvolvida com **PySide6** que permite
 
 ## 🚀 Funcionalidades
 
-- 📂 Seleção de imagens nos formatos `.png`, `.jpg`, ou `.jpeg`.
-- 🤖 Remoção automática do fundo com base em IA.
-- 👁️ Pré-visualização da imagem sem fundo.
-- 💾 Salvamento da imagem processada no formato `.png`.
-- 📊 Barra de progresso para indicar o processamento.
+- 📂 Seleção de imagens nos formatos `.png`, `.jpg` ou `.jpeg`
+- 🤖 Remoção automática do fundo com base em IA
+- 👁️ Pré-visualização da imagem sem fundo
+- 💾 Salvamento da imagem processada no formato `.png`
+- 📊 Barra de progresso para indicar o processamento
 
 ---
 
@@ -22,9 +22,6 @@ Aplicação de interface gráfica (GUI) desenvolvida com **PySide6** que permite
 - [rembg](https://github.com/danielgatis/rembg)
 
 ---
-## 🧠 Créditos
-Este projeto utiliza o poder da biblioteca rembg criada por Daniel Gatis.
----
 
 ## 💻 Como Executar
 
@@ -33,4 +30,25 @@ Este projeto utiliza o poder da biblioteca rembg criada por Daniel Gatis.
 ```bash
 git clone https://github.com/seu-usuario/removedor-fundo-imagem.git
 cd removedor-fundo-imagem
+```
+
+### 2. Crie e ative um ambiente virtual (recomendado)
+```bash
+python -m venv venv
+# No Windows
+venv\Scripts\activate
+# No Linux/Mac
+source venv/bin/activate
+```
+
+### 3. Instale as dependências
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Execute o aplicativo
+```bash
+python main.py
+```
+
 
